@@ -11,6 +11,10 @@ def hello_world():
 def caesar():
     return render_template('caesar.html')
 
+@app.route('/vigenere')
+def vignere():
+    return render_template('vigenere.html')
+
 
 if __name__ == '__main__':
     app.run()
